@@ -1,0 +1,124 @@
+{
+  "timezone": "Europe/Bucharest",
+  "max_items_per_feed": 80,
+  "request_timeout_seconds": 20,
+  "user_agent": "ProductEastNewsCollector/0.1 (RSS reader; contact: admin@producteast.com)",
+  "feeds": [
+    {
+      "name": "BBC Asia",
+      "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "BBC Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "CNA Asia",
+      "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch All",
+      "url": "https://techcrunch.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://arstechnica.com/ai/feed/",
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "CNBC Technology",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "enabled": true
+    },
+    {
+      "name": "Google News Asia technology",
+      "url": "https://news.google.com/rss/search?q=(Asia+OR+China+OR+Japan+OR+India+OR+Taiwan)%20(technology+OR+semiconductors+OR+AI+OR+chips)&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true
+    },
+    {
+      "name": "Google News AI",
+      "url": "https://news.google.com/rss/search?q=(artificial+intelligence+OR+AI+OR+machine+learning)%20(technology+OR+business+OR+research)&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true
+    },
+    {
+      "name": "Google News Asia business",
+      "url": "https://news.google.com/rss/search?q=(Asia+OR+China+OR+Japan+OR+India+OR+Taiwan)%20(AI+OR+technology+OR+semiconductor+OR+startup)&hl=en-US&gl=US&ceid=US:en",
+      "enabled": true
+    }
+  ],
+  "topic_keywords": [
+    "artificial intelligence",
+    "machine learning",
+    "generative ai",
+    "large language model",
+    "AI model",
+    "AI agent",
+    "semiconductor",
+    "semiconductors",
+    "chip",
+    "chips",
+    "GPU",
+    "NPU",
+    "robotics",
+    "robot",
+    "cybersecurity",
+    "data center",
+    "data centre",
+    "quantum computing",
+    "quantum technology",
+    "electric vehicle",
+    "electric vehicles",
+    "battery",
+    "batteries",
+    "cloud computing",
+    "telecommunications",
+    "5g",
+    "6g",
+    "space technology",
+    "software",
+    "hardware",
+    "solar technology",
+    "photovoltaic",
+    "advanced manufacturing",
+    "technology export",
+    "technology exports",
+    "AI export",
+    "AI exports",
+    "trade deal technology",
+    "technology policy",
+    "tech policy",
+    "technology company",
+    "technology companies",
+    "digital services",
+    "data privacy",
+    "cyber attack",
+    "cyberattack",
+    "satellite",
+    "rocket technology"
+  ],
+  "output_directory": "output",
+  "database_path": "data/news.sqlite3",
+  "lookback_hours": 36,
+  "resolve_google_news_urls": true,
+  "url_resolution_timeout_seconds": 8,
+  "url_resolution_delay_seconds": 0.15
+}

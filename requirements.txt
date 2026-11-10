@@ -1,0 +1,6 @@
+feedparser>=6.0.11
+requests>=2.32.0
+python-dateutil>=2.9.0
+tzdata>=2025.1; platform_system == "Windows"
+
+rapidfuzz>=3.9.0
